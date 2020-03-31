@@ -215,7 +215,12 @@ nav ul li div#more div ul li a{
 }
 
 /* Main section */
-
+div#main-section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 div#main-section div.showcase{
     position: relative;
     padding: 0;
