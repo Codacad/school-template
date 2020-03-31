@@ -362,7 +362,7 @@ div.showcase div.content a.read-more:hover{
         width: 100%;
         top:100px;
         height: 100%;
-        padding: 1em;
+        padding: 0;
         text-align: center;
     }
     div.showcase div.content h3{
