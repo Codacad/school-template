@@ -103,7 +103,7 @@ nav.navbar div.hamburger{
     div.mobile-nav > ul{
         width:100%;
         padding: 0;
-        margin-top: 60px;
+        margin: 60px 0px;
         text-align: center;
     }
     div.mobile-nav ul li{
@@ -126,7 +126,6 @@ nav.navbar div.hamburger{
     }
     div.mobile-nav ul li div#more{
         display: flex;
-        padding: 1em;
     }
     div.mobile-nav ul li div#more div:nth-child(1){
         flex: 1;
