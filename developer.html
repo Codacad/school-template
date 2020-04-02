@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Dropdown menu</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+</head>
+<body class="developer">
+    <nav class="navbar">
+        <a href="#" class="brand-logo"><span class="brace1">{</span><span><span class="r">C</span>od</span><span><span class="r">R</span>iz</span><span class="brace2">}</span></a>
+        <ul>
+            <li><a href="#!">Home</a></li>
+            <li>
+                <a href="#facilities">Services <i class="fas fa-caret-down" style="margin-left: 5px;"></i></a>
+                <ul>
+                    <li><a href="#">Service One</a></li>
+                    <li><a href="#">Service Two</a></li>
+                    <li><a href="#">Service Three</a></li>
+                    <li><a href="#">Service Four</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#!">More</a>
+                <i class="fas fa-caret-down" style="margin-left: 5px;"></i>
+                <div id="more">
+                    <div>
+                        <h3>Side One</h3>
+                        <ul>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                            <li><a href="#!">Menu Side One</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Side Two</h3>
+                        <ul>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                            <li><a href="#!">Menu Side Two</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Side Three</h3>
+                        <ul>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                            <li><a href="#!">Menu Side Three</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#" class="login">
+            Login
+            <i class="fas fa-sign-in-alt"></i>
+        </a>
+    </nav>
+    <div id="developer-section">
+        <div class="about-developer">
+            <div class="header">
+                <div class="profile-pic">
+                    
+                </div>
+                <div class="name-and-design">
+                    <h3>Mohd Rizwan</h3>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+            <div class="bio">
+                <p>I am now a self taught Fullstack Developer after studying a couple of years. I am NodeJS developer, I have studied Javascript/NodeJS and more front-end technologies. I, very recently, have started creating the website and it's my first website with just HTML and CSS.</p>
+                <div class="skills">
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>Materialze CSS</li>
+                        <li>SASS</li>
+                        <li>NodeJS/ExpressJS/MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="follow-me">
+                <h2>Follow Me</h2>
+                <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="" title="Github"><i class="fab fa-github"></i></a>
+            </div> 
+            <div class="back-to-home">
+                <a href="./index.html">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./fontawesome-free-5.13.0-web/js/all.js"></script>
+    <script src="./intro.js"></script>
+</body>
+</html>
