@@ -285,6 +285,7 @@ nav ul li div#more{
     overflow: hidden;
     transition: all 500ms ease-in-out;
     border-radius: 2px;
+    border:1px solid rgba(0,0,0,.2);
 }
 nav ul li:hover > div#more{
     height: auto;
