@@ -253,6 +253,7 @@ nav ul li > ul{
     transition: all 500ms ease-in-out;
     box-shadow: -3px -2px 3px rgba(0,0,0,.1), 3px 3px 3px rgba(0,0,0,.1);
     border-radius: 2px;
+    border:1px solid rgba(0,0,0,.2);
 }
 nav ul li:hover > ul{
     height: auto;
